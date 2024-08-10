@@ -4,6 +4,9 @@ vim.keymap.set('n', '<Leader>ff', '<cmd>lua require(\'fzf-lua\').files()<cr>', {
 vim.keymap.set('n', '<Leader>fg', '<cmd>lua require(\'fzf-lua\').grep()<cr>', {noremap = true, silent = false})
 vim.keymap.set('n', '<Leader>fb', '<cmd>lua require(\'fzf-lua\').buffers()<cr>', {noremap = true, silent = false})
 
+vim.keymap.set('n', 's', '<cmd>lua require(\'leap\').leap{}<cr>', {noremap = true, silent = false})
+vim.keymap.set('n', 'S', '<cmd>lua require(\'leap\').leap{backward = true}<cr>', {noremap = true, silent = false})
+
 vim.api.nvim_create_autocmd('LspAttach', {
   desc = 'LSP actions',
   callback = function()

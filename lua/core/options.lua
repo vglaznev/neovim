@@ -2,6 +2,7 @@ vim.opt.swapfile = false
 vim.opt.confirm = true
 
 vim.wo.number = true
+vim.o.laststatus = 3
 
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4

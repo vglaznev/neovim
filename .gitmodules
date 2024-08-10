@@ -13,3 +13,6 @@
 [submodule "pack/colorschemes/opt/kanagawa.nvim"]
 	path = pack/colorschemes/opt/kanagawa.nvim
 	url = https://github.com/rebelot/kanagawa.nvim.git
+[submodule "pack/plugins/start/leap.nvim"]
+	path = pack/plugins/start/leap.nvim
+	url = https://github.com/ggandor/leap.nvim.git
